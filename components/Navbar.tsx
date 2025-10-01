@@ -10,8 +10,6 @@ const navLinks = [
   { name: 'Experience', href: '/experience' },
   { name: 'Projects', href: '/projects' },
   { name: 'Education', href: '/education' },
-  { name: 'Publications', href: '/publications' },
-  { name: 'Resume', href: '/resume' },
   { name: 'Contact', href: '/contact' },
 ];
 
@@ -23,7 +21,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex-shrink-0 text-xl font-bold text-gray-900 dark:text-white">
-            Davison
+            Davison's Portfolio
           </Link>
           <nav className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
