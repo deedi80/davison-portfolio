@@ -17,14 +17,15 @@ export default function ContactPage() {
                 <Mail className="w-6 h-6 text-blue-600 dark:text-blue-400" />
                 <div>
                   <p className="text-sm font-medium text-gray-500 dark:text-gray-400">Email Address</p>
-                  <a href="mailto:jane.doe@example.com" className="text-lg font-semibold hover:text-blue-600 dark:hover:text-blue-400">jane.doe@example.com</a>
+                  <a href="codojnr@yahoo.com" className="text-lg font-semibold hover:text-blue-600 dark:hover:text-blue-400">codojnr@yahoo.com</a>
+                 <div> <a href="davison@deedixtech.com" className="text-lg font-semibold hover:text-blue-600 dark:hover:text-blue-400">davison@deedixtech.com</a> </div>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
                 <Phone className="w-6 h-6 text-blue-600 dark:text-blue-400" />
                 <div>
                   <p className="text-sm font-medium text-gray-500 dark:text-gray-400">Phone</p>
-                  <p className="text-lg font-semibold">+1 (555) 123-4567</p>
+                  <p className="text-lg font-semibold">Available on request</p>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
