@@ -8,7 +8,13 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Davison -  Portfolio',
   description: 'A professional portfolio website built with Next.js and Vercel.',
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon-16x16.png',
+    apple: '/apple-touch-icon.png',
+  },
 };
+
 
 export default function RootLayout({
   children,
@@ -23,7 +29,7 @@ export default function RootLayout({
           {children}
         </main>
         <footer className="py-8 text-center text-sm border-t dark:border-gray-800">
-            © {new Date().getFullYear()} [Davison]. All Rights Reserved.
+            © {new Date().getFullYear()} Davison. All Rights Reserved.
         </footer>
       </body>
     </html>

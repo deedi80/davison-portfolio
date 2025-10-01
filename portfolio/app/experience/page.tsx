@@ -1,25 +1,25 @@
 const experienceData = [
   {
     title: 'Technical Consultant',
-    company: 'takepayments Ltd (<em>A Global Payments Company)</em> - United Kingdom',
+    company: 'takepayments Ltd (A Global Payments Company) - United Kingdom',
     years: 'Jan 2025 - Aug 2025',
     description: 'Provided technical support and solutions for payment systems, ensuring secure and efficient transaction processing. Built TermSense: An Intelligent Monitoring for Payment Terminals, Collaborated with cross-functional teams to optimize system performance and enhance user experience.',
   },
   {
-    title: 'IT Champion (Service Desk Analyst) - United Kingdom',
-    company: 'Teleperformance UK',
+    title: 'IT Champion (Service Desk Analyst)',
+    company: 'Teleperformance UK - United Kingdom',
     years: 'Mar 2024 - Jan 2025',
     description: 'Delivered exceptional IT support to end-users, resolving technical issues related to hardware, software, and network connectivity. Assisted in the implementation of IT policies and procedures to improve service delivery and user satisfaction.',
   },
   {
-    title: 'IT Systems Specialist - Nigeria',
-    company: 'Nicota Global Services Ltd',
+    title: 'IT Systems Specialist',
+    company: 'Nicota Global Services Ltd - Nigeria',
     years: 'Dec 2019 - Feb 2024',
     description: 'Managed and maintained IT infrastructure, including servers, networks, and security systems. Implemented cloud solutions and ensured data integrity through regular backups and disaster recovery planning. Provided training and support to staff on IT best practices and new technologies.',
   },
   {
-    title: 'Student Intern (CCNA) - Nigeria',
-    company: 'NIIT Limited (ForeSoft Systems)',
+    title: 'Student Intern (CCNA)',
+    company: 'NIIT Limited (ForeSoft Systems) - Nigeria',
     years: 'Feb 2018 - Oct 2018',
     description: 'Gained hands-on experience in network configuration, troubleshooting, and security protocols. Assisted in the setup and maintenance of local area networks (LANs) and wide area networks (WANs) for clients. Supported senior network engineers in various projects, enhancing my understanding of networking concepts and practices.',
   },

@@ -1,4 +1,3 @@
-// app/about/page.tsx
 import { User, Briefcase, Award } from 'lucide-react';
 import Image from 'next/image';
 
