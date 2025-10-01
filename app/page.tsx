@@ -1,8 +1,10 @@
 import { ArrowRight } from 'lucide-react';
 import Link from 'next/link';
+import AboutSection from '@/components/AboutSection';
 
 export default function HomePage() {
   return (
+    <main>
     <section className="flex items-center justify-center min-h-[calc(100vh-64px)] py-16 bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-800 dark:to-gray-900">
       <div className="max-w-4xl mx-auto px-4 text-center">
         <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-gray-900 dark:text-white">
@@ -27,5 +29,7 @@ export default function HomePage() {
         </div>
       </div>
     </section>
+    <AboutSection />
+     </main>
   );
 }
