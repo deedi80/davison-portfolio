@@ -1,8 +1,8 @@
 // File: C:\Users\codoj\OneDrive\Documents\aula-projects-ca\davison-portfolio\portfolio\app\education\page.tsx
-import * as entry from '../../../../app/education/page.jsx'
+import * as entry from '../../../../app/education/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../app/education/page.jsx')
+type TEntry = typeof import('../../../../app/education/page.js')
 
 type SegmentParams<T extends Object = any> = T extends Record<string, any>
   ? { [K in keyof T]: T[K] extends string ? string | string[] | undefined : never }
