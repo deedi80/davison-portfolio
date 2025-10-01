@@ -11,7 +11,7 @@ export default function AboutPage() {
           <div className="w-full md:w-1/3 flex justify-center">
             <div className="relative w-64 h-64 rounded-full overflow-hidden shadow-xl ring-4 ring-blue-500/50">
               <Image 
-                src="../public/profile-image.jpeg" 
+                src="/profile-image.jpeg" 
                 alt="Davison Isesele's Profile" 
                 layout="fill" 
                 objectFit="cover" 
