@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Davison -  Portfolio',
   description: 'A professional portfolio website built with Next.js and Vercel.',
   icons: {
-    icon: '/favicon.ico',
+    icon: 'favicon.ico',
     shortcut: '/favicon-16x16.png',
     apple: '/apple-touch-icon.png',
   },
